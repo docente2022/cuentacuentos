@@ -4,99 +4,157 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cuenta cuentos, cuentos para leer. Hace volar tu imaginación.Cuentos, videocuentos, audiocuentos.cuentos clasicos, cuentos fantasticos. cuentos de todos los tipos">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/f7d032e2e9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href=".//estilos/css/style.css">
     <title>Inicio</title>
 </head>
 
+<body >
 
-
-<body>
-
-    <header>
+    
 <!-- menú de navegacion -->
-   
-        <nav>
-        
+<header class="header justify-content-start">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./paginas/img/cuenta_cuentos_2.png "  alt="logo"  class="logo ">
+          </a>
 
-                <img  src="./paginas/img/cuenta_cuentos_2.png" alt="logo">
-    
-        
-    
-            <ul class="menu">
-                
-                <li>
-                    <a href="./paginas/cuentos.html"> Cuentos </a>
-                </li>
-    
-                <li>
-                    <a href="./paginas/videocuentos.html"> VideoCuentos </a>
-                </li>
-                <li>
-                    <a href="https://www.mundoprimaria.com/cuentos-infantiles-cortos/audiocuentos-infantiles">AudioCuentos</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html">Contacto</a>
-                </li>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuentos
+                </a>
+            
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Todos los cuentos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cuentos clásicos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Lobos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Princesas</a></li><li><a class="dropdown-item" href="#">Cuentos de Hadas</a></li><li><a class="dropdown-item" href="#">Cuentos de Terror.</a></li><li><a class="dropdown-item" href="#">Cuentos Policiales</a></li><li><a class="dropdown-item" href="#">Cuentos Fantásticos</a></li><li><a class="dropdown-item" href="#">Cuentos de animales.</a></li><li><a class="dropdown-item" href="#">Cuentos con valores</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a  href="#"class="nav-link ">Videocuentos</a>
+              </li>
+              <li class="nav-item">
+                <a  href="#"class="nav-link ">AudioCuentos</a>
+              </li>
             </ul>
-              
-            <div class="buscar"> 
-                <a href="#"><button>Buscar</button> <input type="text" value="buscar"></a>
-              
-            </div> 
-        </nav>
-    
-    </header>
-
-    <main>
-    <!-- contenido -->
-
-    <div class="portada d-flex justify-content-start">
-
-        <a href="https://cuentosdepukka.wordpress.com/2011/12/14/cecile-roumiguiere-benjamine-lacombe-la-nina-silencio/"> <img src="./paginas/img/portadaCuentosDeTerror/2.jpg" alt="">
-        </a>
-    </div>
-
-    <div class="portada">
-           
-        <a href="#"> <img src="./paginas/img/portadaCuentosDeTerror/3.jpg" alt="">
-        </a>
-    </div>
-
-    <div class="portada">
-           
-        <a href="#"> <img src="./paginas/img/portadaCuentosDeTerror/31baa6a3f6feb60c20e3b8bc985df940.jpg" alt="">
-        </a>
-
-    </div>  
-
-    <div class="portada">
-        <a href="#">  
-            <img src="./paginas/img/portadaCuentosDeTerror/6a9131dee1993553a55c936983293102.jpg" alt="">
-        </a>
-    </div>
-
-    <div class="portada">
-             
-        <a href="#">
-            <img src="./paginas/img/portadaCuentosDeTerror/e18d08ae9ca532a3a5ea7c2d5c916968.jpg" alt="">
-        </a>
-    </div>
-
-
+            <hr class="d-md-none text-white-50">
+          <ul class="navbar-nav  flex-row flex-wrap text-light">
   
-   
-</main>
+            <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""><i class="fa-solid fa-user"></i> </a>
+               <small class="d-md-none ms-2" style="color: black;">Login</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Facebook</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""target="_blank"><i class="fa-brands fa-twitter"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Twitter</small>
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Instagram</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""target="_blank"><i class="fa-brands fa-youtube"></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Youtube</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""target="_blank"><i class="fa-solid fa-envelope" style="color: #0f56d2;"></i></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Contacto</small>
+             </li>
+           </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+</header>
     
-<footer>  
+    <!-- contenido -->
+        <main class="main">
+            <div>
+                <h1 class="animate__animated animate__bounce animate__delay-1sanimate__repeat-infinite "> Cuenta cuentos</h1>
+            </div>
+       
+            <article class="container"> 
+                <h3>Un viaje a través de la imaginación </h3>
+                <p>  
+                A los niños les encantan los cuentos. No es de sorprendernos, estos nos transportan a mundos mágicos, producen emociones como la alegría, simpatía y compasión, por nombrar solo algunas. Los cuentos hablan de temas universales y están acompañados de valores morales, también nos enseñan nuevos conceptos y nos permiten explorar diferentes culturas. Así que, si quieres viajar a un mundo imaginario, ¡has llegado al lugar correcto! Navega nuestro portal y encuentra cientos de cuentos cortos infantiles gratis, así como mitos, leyendas y mas.
+            </article>
+        
+        
+            <div class=" container portada">
+                <h3 class="text-center"> Cuentos mas leídos</h3>
+                <a href="http://"><img src="/paginas/img/caperucita.jpg" alt=""></a>
+                <a href="http://"><img src="/paginas/img/cuando-ana-tiene-miedo.jpg" alt=""></a>
+                <a href="http://"><img src="/paginas/img/gatoConBotas.jpg" alt=""></a>
+                <a href="http://"><img src="/paginas/img/los-3-cerditos.jpg" alt=""></a>
+                <a href="http://"><img src="/paginas/img/losbesosdelloboferoz.jpg" alt=""></a>
+                <a href="http://"><img src="/paginas/img/pinocho-no-era-mentiroso.jpg" alt=""></a>
+                <a href="/paginas/cuentos.html"><input type="button" value="Mas cuentos..."></a>
+            </div>
+                <div> <h2 class="text-center"> VIDEOCUENTOS POPULARES</h2></div>
+            <div class=" videocuentos">
+               
+                
+                <div class="a">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/VCgVZ9j94EI?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="CUENTOS INFANTILES - PÁJARO AMARILLO (Olga de Dios)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h6>PÁJARO AMARILLO (Olga de Dios)</h6>
+
+                </div>
+                <div class="b">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/_1ns78xuJYM?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="MONSTRUO ROSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h6>MONSTRUO ROSA</h6>
+                </div>
+                <div class="c">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/js1lKmt-Mag" title="La Liebre y la Tortuga | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h6>LA LIEBRE Y LA TORTUGA</h6>
+                </div>
+                <div class="d">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/Uw0ccE8yLa0" title="El Patito Feo | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h6>EL PATITO FEO</h6>
+                </div>
+                <div class="e">
+                    <iframe width="885" height="498" src="https://www.youtube.com/embed/UFhx94tx8hk" title="Pulgarcita | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <h6>PULGARCITA</h6>
+                </div>
+
+            </div>
+
+        </main>
+           
+<footer class="footer">  
     <div>
         <h4>Todos los derechos reservados</h4>
         <h5> Autor: Da Rosa Yonatan</h5>
@@ -104,5 +162,9 @@
     </div>    
     
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+
 
 </html>

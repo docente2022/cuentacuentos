@@ -1,0 +1,27 @@
+.container {
+    display: grid; 
+    grid-auto-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 0.3fr 2.3fr 0.4fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      "header"
+      "main"
+      "footer"; 
+  }
+  .header { grid-area: header; }
+  .main {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". . ."
+      ". . ."
+      ". . ."; 
+    grid-area: main; 
+  }
+    i {
+      width: 10px;
+    }
+  .footer { grid-area: footer; }
