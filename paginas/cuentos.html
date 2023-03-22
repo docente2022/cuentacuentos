@@ -18,65 +18,119 @@
 
 <body>
 <!-- menú de navegacion -->
-    <header class="header">
+<header class="header justify-content-start">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/paginas/img/cuenta_cuentos_2.png "  alt="logo"  class="logo ">
+          </a>
 
-        <nav>
-        
-            <img  src="./img/cuenta_cuentos_2.png" alt="logo">
-    
-            <ul class="menu">
-                <li>
-                    <a href="index.html"><i class="fa-solid fa-house"></i> </a>
-                </li>
-                <li>
-                    <a href="./cuentos.html"> Cuentos </a>
-                </li>
-    
-                <li>
-                    <a href="https://cuentosparadormir.com/videocuentos"> VideoCuentos </a>
-                </li>
-                <li>
-                    <a href="https://www.mundoprimaria.com/cuentos-infantiles-cortos/audiocuentos-infantiles">AudioCuentos</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html">Contacto</a>
-                </li>
-            </ul>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="/index.html">Inicio</a>
+              </li>
               
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </nav>
-    
-    </header>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuentos
+                </a>
+            
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/paginas/cuentos.html">Todos los cuentos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cuentos clásicos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Lobos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Princesas</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Hadas</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Terror.</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos Policiales</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos Fantásticos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de animales.</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos con valores</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a  href="/paginas/videocuentos.html"class="nav-link active">Videocuentos</a>
+              </li>
+              <li class="nav-item">
+                <a  href="/paginas/audiocuento.html"class="nav-link ">AudioCuentos</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50">
+          <ul class="navbar-nav  flex-row flex-wrap text-light">
+  
+            <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""><i class="fa-solid fa-user"></i> </a>
+               <small class="d-md-none ms-2" style="color: black;">Login</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Facebook</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.twitter.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Twitter</small>
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Instagram</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.youtube.com/"target="_blank"><i class="fa-brands fa-youtube"></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Youtube</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="/paginas/contacto.html"target="_blank"><i class="fa-solid fa-envelope" style="color: #0f56d2;"></i></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Contacto</small>
+             </li>
+           </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</header>
+
 <!-- contenido -->
     
     <main class="main">
     
  <div class="container portada">
     <h1 class="text-center">TODOS LOS CUENTOS</h1>
+    
         <a href="./cuentos/atrapemos-al-monstuo.html"><img src="./img/atrapemos-al-monstruo.jpg" alt=""></a>
-        <a href="http://"><img src="./img/bicho-raro.jpg" alt=""></a>
-        <a href="http://"><img src="./img/caperucita.jpg" alt=""></a>
-        <a href="http://"><img src="./img/cuando-ana-tiene-miedo.jpg" alt=""></a>
-        <a href="http://"><img src="./img/el-gran-lobo-feroz.jpeg" alt=""></a>
-        <a href="http://"><img src="./img/el-Lobo-que-queria-ser-una-oveja.jpg" alt=""></a>
-        <a href="http://"><img src="./img/el-lobo-sentimental.jpg" alt=""></a>
-        <a href="http://"><img src="./img/el-sueño-de-chocolate.jpg" alt=""></a>
-        <a href="http://"><img src="./img/gatoConBotas.jpg" alt=""></a>
-        <a href="http://"><img src="./img/la-fea-durmiente.jpg" alt=""></a>
-        <a href="http://"><img src="./img/la-maquina-de-fabricar-besos.jpg" alt=""></a>
-        <a href="http://"><img src="./img/la-ovejita-que-vino-a-cenar.jpg" alt=""></a>
-        <a href="http://"><img src="./img/la-vaca-que-leia-libros.jpg" alt=""></a>
-        <a href="http://"><img src="./img/los-3-cerditos.jpg" alt=""></a>
-        <a href="http://"><img src="./img/los-lobos-que-vinieron-a-cenar.jpg" alt=""></a>
-        <a href="http://"><img src="./img/losbesosdelloboferoz.jpg" alt=""></a>
-        <a href="http://"><img src="./img/melinapiesfrios.jpg" alt=""></a>
-        <a href="http://"><img src="./img/mi-camita.jpg" alt=""></a>
-        <a href="http://"><img src="./img/mi-papa.jpg" alt=""></a>
-        <a href="http://"><img src="./img/pinocho-no-era-mentiroso.jpg" alt=""></a>
+        <a href="./cuentos/un-bicho-raro.html"><img src="./img/bicho-raro.jpg" alt=""></a>
+        <a href="./cuentos/caperucita-roja.html"><img src="./img/caperucita.jpg" alt=""></a>
+        <a href="./cuentos/cuando-ana-tiene-miedo.html"><img src="./img/cuando-ana-tiene-miedo.jpg" alt=""></a>
+        <a href="./cuentos/el-gran-lobo-feroz.html"><img src="./img/el-gran-lobo-feroz.jpeg" alt=""></a>
+        <a href="./cuentos/el-lobo-que-queria-ser.html"><img src="./img/el-Lobo-que-queria-ser-una-oveja.jpg" alt=""></a>
+        <a href="./cuentos/el-lobo-sentimental.html"><img src="./img/el-lobo-sentimental.jpg" alt=""></a>
+        <a href="./cuentos/el-sueño-de-chocolate.html"><img src="./img/el-sueño-de-chocolate.jpg" alt=""></a>
+        <a href="./cuentos/el-gato-con-botas.html"><img src="./img/gatoConBotas.jpg" alt=""></a>
+        <a href="./cuentos/la-fea-durmiente.html"><img src="./img/la-fea-durmiente.jpg" alt=""></a>
+        <a href="./cuentos/la.maquina-de-fabricar-besos.html"><img src="./img/la-maquina-de-fabricar-besos.jpg" alt=""></a>
+        <a href="./cuentos/la-ovejita-que-vino-a-cenar.html"><img src="./img/la-ovejita-que-vino-a-cenar.jpg" alt=""></a>
+        <a href="./cuentos/la-vaca-leia-libros.html"><img src="./img/la-vaca-que-leia-libros.jpg" alt=""></a>
+        <a href="./cuentos/los-tres-cerditos.html"><img src="./img/los-3-cerditos.jpg" alt=""></a>
+        <a href="./cuentos/los-lobos-que-vinieron-a-cenar.html"><img src="./img/los-lobos-que-vinieron-a-cenar.jpg" alt=""></a>
+        <a href="./cuentos/los-besos-del-lobo-feroz.html"><img src="./img/losbesosdelloboferoz.jpg" alt=""></a>
+        <a href="./cuentos/malina-pies-frios.html"><img src="./img/melinapiesfrios.jpg" alt=""></a>
+        <a href="./cuentos/mi-camita.html"><img src="./img/mi-camita.jpg" alt=""></a>
+        <a href="./cuentos/mi-papa.html"><img src="./img/mi-papa.jpg" alt=""></a>
+        <a href="./cuentos/pinochoNoEraMnetiros.html"><img src="./img/pinocho-no-era-mentiroso.jpg" alt=""></a>
 
 
 

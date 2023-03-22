@@ -4,85 +4,209 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cuenta cuentos, cuentos para leer. Hace volar tu imaginación.Cuentos, videocuentos, audiocuentos.cuentos clasicos, cuentos fantasticos. cuentos de todos los tipos">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/f7d032e2e9.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../estilos/css/style.css">
-    <title>Inicio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Source+Code+Pro&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://kit.fontawesome.com/f7d032e2e9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/estilos/css/style.css">
+    <title>Cuentos-Cuentos-Videocuentos</title>
 </head>
 
+<body >
 
-<body>
-
-    <header>
+    
 <!-- menú de navegacion -->
-   
-        <nav>
-        
-            <img  src="./img/cuenta_cuentos_2.png" alt="logo">
-    
-            <ul class="menu">
-                <li>
-                    <a href="/index.html"><i class="fa-solid fa-house"></i> </a>
-                </li>
-                <li>
-                    <a href="https://arbolabc.com/cuentos-infantiles-cortos"> Cuentos </a>
-                </li>
-    
-                <li>
-                    <a href="https://cuentosparadormir.com/videocuentos"> VideoCuentos </a>
-                </li>
-                <li>
-                    <a href="https://www.mundoprimaria.com/cuentos-infantiles-cortos/audiocuentos-infantiles">AudioCuentos</a>
-                </li>
-                <li>
-                    <a href="./paginas/contacto.html">Contacto</a>
-                </li>
-            </ul>
-              
-            <i class="fa-solid fa-user"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-youtube"></i>
-        </nav>
-    
-    </header>
+<header class="header justify-content-start">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/paginas/img/cuenta_cuentos_2.png "  alt="logo"  class="logo ">
+          </a>
 
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Cuentos
+                </a>
+            
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="/paginas/cuentos.html">Todos los cuentos</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Cuentos clásicos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Lobos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Princesas</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Hadas</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de Terror.</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos Policiales</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos Fantásticos</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos de animales.</a></li>
+                  <li><a class="dropdown-item" href="#">Cuentos con valores</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a  href="/paginas/videocuentos.html"class="nav-link  active">Videocuentos</a>
+              </li>
+              <li class="nav-item">
+                <a  href="/paginas/audiocuento.html"class="nav-link ">AudioCuentos</a>
+              </li>
+            </ul>
+            <hr class="d-md-none text-white-50">
+          <ul class="navbar-nav  flex-row flex-wrap text-light">
+  
+            <li class="nav-item col-6 col-md-auto p-3">
+                <a href=""><i class="fa-solid fa-user"></i> </a>
+               <small class="d-md-none ms-2" style="color: black;">Login</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.facebook.com/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Facebook</small> 
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.twitter.com/"target="_blank"><i class="fa-brands fa-twitter"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Twitter</small>
+             </li>
+ 
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.instagram.com/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               <small class="d-md-none ms-2" style="color: black;">Instagram</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="https://www.youtube.com/"target="_blank"><i class="fa-brands fa-youtube"></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Youtube</small>
+             </li>
+             <li class="nav-item col-6 col-md-auto p-3">
+                <a href="/paginas/contacto.html"target="_blank"><i class="fa-solid fa-envelope" style="color: #0f56d2;"></i></i> </i></a>
+               <small class="d-md-none ms-2" style="color: black;">Contacto</small>
+             </li>
+           </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+</header>
+    
     <main>
     <!-- contenido -->
-   <h1 class="text-center"> Todos los videocuentos</h1>
-    <div class="video d-flex justify-content-start ">
-        <iframe width="300px" height="200px" src="https://www.youtube.com/embed/3I6yh2r_9EU" title="Tres Cerditos y Cuentos de Lobos | Cuentos infantiles para dormir en Español" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-        <iframe width="300px" height="200px" src="https://www.youtube.com/embed/LIaJWBp5feo" title="Blancanieves y los siete enanitos cuentos infantiles para dormir &amp; animados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <div class=" container-md">
+               
+        <div class="row">
+          <div class=" col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/VCgVZ9j94EI?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="CUENTOS INFANTILES - PÁJARO AMARILLO (Olga de Dios)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"> <h6>PÁJARO AMARILLO (Olga de Dios)</h6></button> 
+      
+        </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/_1ns78xuJYM?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="MONSTRUO ROSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>MONSTRUO ROSA</h6></button>
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/js1lKmt-Mag" title="La Liebre y la Tortuga | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>LA LIEBRE Y LA TORTUGA</h6> </button>
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/Uw0ccE8yLa0" title="El Patito Feo | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>EL PATITO FEO</h6></button> 
+          </div>
 
-      <div>
-        <iframe width="300px" height="200px" src="https://www.youtube.com/embed/pRFhHgoW6Nk" title="El Lobo y los Siete Cabritos cuentos infantiles para dormir &amp; animados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      </div>  
+          <div class="row">
+            <div class=" col">
+              <iframe width="885" height="498" src="https://www.youtube.com/embed/VCgVZ9j94EI?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="CUENTOS INFANTILES - PÁJARO AMARILLO (Olga de Dios)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <button class="btn btn-light"> <h6>PÁJARO AMARILLO (Olga de Dios)</h6></button> 
+            </div>
+            <div class="col">
+              <iframe width="885" height="498" src="https://www.youtube.com/embed/_1ns78xuJYM?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="MONSTRUO ROSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <button class="btn btn-light"><h6>MONSTRUO ROSA</h6></button>
+              </div>
+            <div class="col">
+              <iframe width="885" height="498" src="https://www.youtube.com/embed/js1lKmt-Mag" title="La Liebre y la Tortuga | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <button class="btn btn-light"><h6>LA LIEBRE Y LA TORTUGA</h6> </button>
+            </div>
+            <div class=" col">
+              <iframe width="885" height="498" src="https://www.youtube.com/embed/Uw0ccE8yLa0" title="El Patito Feo | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <button class="btn btn-light"><h6>EL PATITO FEO</h6></button> 
+            </div>
+        <div class="row">
+          <div class=" col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/VCgVZ9j94EI?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="CUENTOS INFANTILES - PÁJARO AMARILLO (Olga de Dios)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"> <h6>PÁJARO AMARILLO (Olga de Dios)</h6></button> 
+      
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/_1ns78xuJYM?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="MONSTRUO ROSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>MONSTRUO ROSA</h6></button>
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/js1lKmt-Mag" title="La Liebre y la Tortuga | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>LA LIEBRE Y LA TORTUGA</h6> </button>
+          </div>
+          <div class=" col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/Uw0ccE8yLa0" title="El Patito Feo | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>EL PATITO FEO</h6></button> 
+          </div>
+        <div class="row">
+          <div class=" col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/VCgVZ9j94EI?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="CUENTOS INFANTILES - PÁJARO AMARILLO (Olga de Dios)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"> <h6>PÁJARO AMARILLO (Olga de Dios)</h6></button> 
+      
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/_1ns78xuJYM?list=PLnXudHjVpJss4Xs6uyJ0bcnVBZSSDAQ2O" title="MONSTRUO ROSA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>MONSTRUO ROSA</h6></button>
+          </div>
+          <div class="col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/js1lKmt-Mag" title="La Liebre y la Tortuga | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>LA LIEBRE Y LA TORTUGA</h6> </button>
+          </div>
+          <div class=" col">
+            <iframe width="885" height="498" src="https://www.youtube.com/embed/Uw0ccE8yLa0" title="El Patito Feo | Cuentos infantiles para dormir" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <button class="btn btn-light"><h6>EL PATITO FEO</h6></button> 
+          </div>
+        
+        </div> 
+        
 
-        <iframe width="885" height="498" src="https://www.youtube.com/embed/BaPpLx4WlKA" title="Zhiharka | Cuento de hadas erzyan | Serie animada de niños | Videos preescolares | Historias morales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-        <iframe width="885" height="498" src="https://www.youtube.com/embed/Pv4B7S88CXw" title="El Hombre De Jengibre | Cuentos de Hadas Españoles - Spanish Tales" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-
-    
-   
+      
+     
     </main>
+          
+<footer class="footer">  
+    <div>
+        <h4>Todos los derechos reservados</h4>
+        <h5> Autor: Da Rosa Yonatan</h5>
+        <h5>Email: darosayonatanrafael@gmail.com</h5>
+    </div>    
+    
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
     
-<footer>  
- <div>
-    <h4>Todos los derechos reservados</h4>
-    <h5> Autor: Da Rosa Yonatan</h5>
-    <h5>Email: darosayonatanrafael@gmail.com</h5>
-</div>    
 
-</footer>
+
 
 </html>
