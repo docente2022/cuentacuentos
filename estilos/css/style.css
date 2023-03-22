@@ -12,13 +12,14 @@ body {
   grid-template-areas: "header"
  "main"
  "footer";
-
-  background-image: url(/paginas/img/a.jpg);;
-  background-size: 100%;
+ background-color: bisque;
+  
 }
 
 .header {
-  grid-area: header; }
+  grid-area: header; 
+}
+
 
 .logo {
   height: 100px;
@@ -26,7 +27,7 @@ body {
   padding: 0; }
 
 nav li a:hover {
-  background-color: #a87fff;
+  background-color: greenyellow;
   border-radius: 20px; }
 
 .main {
@@ -35,7 +36,7 @@ nav li a:hover {
   height: auto;
   padding: 0.5rem;
   align-items: center;
-  
+  background-color: antiquewhite;
    }
 
 h1 {
@@ -58,6 +59,8 @@ h1 {
 
 .footer {
   grid-area: footer;
+  background-color:#cccccc;
+
   }
 
 h2 {
@@ -71,20 +74,20 @@ div img {
   border-radius: 24px; }
 
 .portada img:hover {
-  box-shadow: 0 0 12px 15px rgba(173, 52, 52, 0.5); }
-
-footer {
-  text-align: unset; }
+  box-shadow: 0 0 12px 15px rgba(15, 97, 230, 0.5); }
+ 
 
 form {
   margin: 0 auto;
   width: 400px;
   padding: 1em;
-  border: 1px solid #CCC;
+  border: 1px solid #cccccc;
   border-radius: 1em; }
 
 form li + li {
-  margin-top: 1em; }
+  margin-top: 1em;
+  text-decoration: none;
+list-style: none;}
 
 label {
   display: inline-block;
@@ -118,7 +121,9 @@ button {
 iframe {
   width: 250px;
   height: 150px;
-  padding-top: 20px;
-  display: block;
-  align-items: center;
-  justify-content: center; }
+  border-radius: 15px; }
+i{
+  font-size: 18px;
+}
+a i:hover {
+  box-shadow: 0 0 12px 15px rgba(15, 230, 83, 0.5); }

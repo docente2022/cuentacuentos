@@ -41,24 +41,10 @@ nav li a:hover {
         h1 {
           font-size: xx-large;
           text-align: center;
-          font-family: 'Hind', sans-serif;
+          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
          
         }
-  .videocuentos {  display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.3fr;
-    grid-auto-columns: 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-    "a b  c d e";
   
-   
-}
-    .videocuentos div {
-    margin: 5px;
-    padding: 5px;
-   }
 
 
 .footer {
@@ -127,3 +113,4 @@ iframe {
   display: block;
   align-items: center;
   justify-content: center; }
+ 
