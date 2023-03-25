@@ -12,9 +12,16 @@ body {
   grid-template-areas: "header"
  "main"
  "footer";
- background-color: bisque;
+ background-image: url(/paginas/img/fondo-para-blogger.png);
   
 }
+p {
+padding: 40px;
+padding-top: 10px;
+padding-bottom: 1px;
+margin: 1px;
+}
+
 
 .header {
   grid-area: header; 
@@ -36,13 +43,26 @@ nav li a:hover {
   height: auto;
   padding: 0.5rem;
   align-items: center;
-  background-color: antiquewhite;
+  background-color: aliceblue;
    }
-
+.titulo{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                -23px 0 20px -23px rgba(0, 0, 0, .8),
+                23px 0 20px -23px rgba(0, 0, 0, .8),
+                inset 0 0 40px rgba(0, 0, 0, .1);
+}
 h1 {
+  background: #FF0000;
+  background: linear-gradient(to left, #FF0000 0%, #000000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
   font-size: xx-large;
   text-align: center;
-  font-family: 'Hind', sans-serif; }
+  font-family: 'Hind', sans-serif;
+  ;
+  text-shadow: 3px 15px 7px rgba(19, 0, 0, 1);
+ }
 
 .videocuentos {
   display: grid;
@@ -63,8 +83,6 @@ h1 {
 
   }
 
-h2 {
-  align-items: flex-end; }
 
 div img {
   width: 200px;
