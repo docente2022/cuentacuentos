@@ -12,7 +12,7 @@ body {
   grid-template-areas: "header"
  "main"
  "footer";
- background-image: url(/paginas/img/fondo-para-blogger.png);
+ background-color:#E5D1FA;
   
 }
 p {
@@ -22,29 +22,35 @@ padding-bottom: 1px;
 margin: 1px;
 }
 
-
 .header {
   grid-area: header; 
 }
-
+header{
+  background-color:#E3DFFD ;
+}
 
 .logo {
   height: 100px;
-  width: 100px;
-  padding: 0; }
-
-nav li a:hover {
-  background-color: greenyellow;
-  border-radius: 20px; }
-
+  width: 150px;
+  padding: 5px; }
+  
+  nav li a:hover {
+    background-color:#B2A4FF;
+    border-radius: 20px; }
+    
+  
+  .btn:hover{ 
+    background-color: #B2A4FF;
+    border-radius: 10px;
+  }
 .main {
   grid-area: main;
   width: auto;
-  height: auto;
-  padding: 0.5rem;
-  align-items: center;
-  background-color: aliceblue;
+  height: auto;;
    }
+main{
+  background-color:  #ECF2FF;
+}
 .titulo{
     box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
                 -23px 0 20px -23px rgba(0, 0, 0, .8),
@@ -52,47 +58,50 @@ nav li a:hover {
                 inset 0 0 40px rgba(0, 0, 0, .1);
 }
 h1 {
-  background: #FF0000;
-  background: linear-gradient(to left, #FF0000 0%, #000000 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  
+  color: #bd17d3;
   font-size: xx-large;
   text-align: center;
-  font-family: 'Hind', sans-serif;
-  ;
-  text-shadow: 3px 15px 7px rgba(19, 0, 0, 1);
+  font-family: 'Hanalei', cursive;
+
  }
 
-.videocuentos {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr;
-  grid-auto-columns: 1fr 1fr 1fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas: "a b  c d e"; }
+ h2{
+  color: #bd17d3;
+ }
+.portada{
+  border-bottom: #999;
+  border-width: 10px;
+}
 
-.videocuentos div {
-  margin: 5px;
-  padding: 5px; }
+
 
 .footer {
   grid-area: footer;
-  background-color:#cccccc;
-
+  background-color: #FFF4D2;
   }
+  footer ul a{
+    text-decoration: none;
+    color: #000;
+  }
+footer ul a:hover{
+  background-color: #B2A4FF;
+  border-radius: 10px;
 
+}
 
 div img {
   width: 200px;
   height: 300px;
   padding: 0.7rem;
   border: 10px;
+  color: #000;
   border-radius: 24px; }
 
 .portada img:hover {
-  box-shadow: 0 0 12px 15px rgba(15, 97, 230, 0.5); }
+   
+   box-shadow: 0 0 12px 15px #B2A4FF ;
+  width: 220px;
+  height: 320; }
  
 
 form {
@@ -132,9 +141,7 @@ textarea {
 button {
   margin-left: .5em; }
 
-.video {
-  width: 1000px;
-  height: 1000px; }
+
 
 iframe {
   width: 250px;
@@ -142,6 +149,7 @@ iframe {
   border-radius: 15px; }
 i{
   font-size: 18px;
+  color: #bd17d3;
 }
-a i:hover {
-  box-shadow: 0 0 12px 15px rgba(15, 230, 83, 0.5); }
+
+

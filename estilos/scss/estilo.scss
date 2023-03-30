@@ -16,28 +16,10 @@ body {
  
 }
 
-.header {
-  grid-area: header; }
-.logo{
-  height: 100px;
-  width: 100px;
-  padding: 0;
 
-}
-nav li a:hover {
-  background-color: #a87fff;
-  border-radius: 20px; }
 
-  .main {
-    grid-area: main;
-    width: auto;
-    height: auto;
-    padding: 0.5rem;
-    align-items: center; 
-    background-image: url(/paginas/img/aa.jpg);
-    background-size: 100%;
-    background-repeat:no-repeat;
-  }
+
+ 
         h1 {
           font-size: xx-large;
           text-align: center;
