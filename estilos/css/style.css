@@ -30,20 +30,32 @@ main {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     text-decoration: underline; }
-  main div img {
+  main .portada img {
     width: 200px;
     height: 300px;
     padding: 0.7rem;
     border: 10px;
     color: #000;
     border-radius: 24px; }
-    main div img:hover {
+    main .portada img:hover {
       box-shadow: 0 0 12px 15px #B2A4FF;
       width: 220px;
       height: 320; }
 
 .titulo {
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), -23px 0 20px -23px rgba(0, 0, 0, 0.8), 23px 0 20px -23px rgba(0, 0, 0, 0.8), inset 0 0 40px rgba(0, 0, 0, 0.1); }
+  animation: grow-and-shrink 2000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate; }
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1); }
+  100% {
+    transform: scale(1.4); } }
+
+i {
+  color: #bd17d3; }
 
 .footer {
   grid-area: footer;
@@ -66,12 +78,13 @@ main {
   background: #ff16d8;
   overflow: hidden;
   color: white; }
-
-span {
-  font-size: 100px;
-  display: block;
-  text-align: center;
-  padding: 2.5rem; }
+  .cabecera i {
+    color: white; }
+  .cabecera span {
+    font-size: 100px;
+    display: block;
+    text-align: center;
+    padding: 2.5rem; }
 
 .contact {
   padding: .8rem;
