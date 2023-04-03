@@ -1,0 +1,41 @@
+$colorfondo: #E5D1FA;
+$colorfondo2:#e50ce2;
+$colortitulos:#bd17d3;
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+
+.ov-btn-grow-skew, .btn {
+    background: #fff; /* color de fondo */
+    color: #e71ec9; /* color de fuente */
+    border: 2px solid #b20bef; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+        &:hover {
+        color: #fff;/* color de fuente hover */
+
+
+    }
+    &::after {
+      content: "";
+      background:$colorfondo2; /* color de fondo hover */
+      position: absolute;
+      z-index: -1;
+      padding: 16px 20px;
+      display: block;
+      left: -20%;
+      right: -20%;
+      top: 0;
+      bottom: 0;
+      transform: skewX(-45deg) scale(0, 1);
+      transition: all 0.3s ease;
+    }
+    &:hover::after {
+      transition: all 0.3s ease-out;
+      transform: skewX(-45deg) scale(1, 1);
+    }
+  }
+  

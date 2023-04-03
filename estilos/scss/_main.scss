@@ -1,59 +1,46 @@
-.main {
-    grid-area: main;
-    width: auto;
+$colorfondo: #E5D1FA;
+$colorfondo2:#e50ce2;
+$colortitulos:#bd17d3;
+
+
+main{
+    width:75%;
     height: auto;
     background-color:  #ECF2FF;
-        .titulo{
-            box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
-                    -23px 0 20px -23px rgba(0, 0, 0, .8),
-                    23px 0 20px -23px rgba(0, 0, 0, .8),
-                    inset 0 0 40px rgba(0, 0, 0, .1);
-
-     }
-   
-        h1 {
-            color: #bd17d3;
-            font-size: xx-large;
-            text-align: center;
-            font-family: 'Hanalei', cursive;
+    h1 {
+        color: #bd17d3;
+        font-size: xx-large;
+        text-align: center;
+        font-family: 'Hanalei', cursive;
+        font-weight: bold;
       
        }
+      
        h2{
-            color: #bd17d3;
+        color: #bd17d3;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-decoration: underline;
        }
-       p {
-        padding: 40px;
-        padding-top: 10px;
-        padding-bottom: 1px;
-        margin: 1px;
-        }
-      .portada{
-                border-bottom: #999;
-                border-width: 10px;
-                div img {
-                    width: 200px;
-                    height: 300px;
-                    padding: 0.7rem;
-                    border: 10px;
-                    color: #000;
-                    border-radius: 24px;
-                    &:hover {
+       div img {
+        width: 200px;
+        height: 300px;
+        padding: 0.7rem;
+        border: 10px;
+        color: #000;
+        border-radius: 24px; 
+        &:hover {
    
-                        box-shadow: 0 0 12px 15px #B2A4FF ;
-                        width: 220px;
-                        height: 320; } 
-                    }        
-}
-        .videocuentos div {
-                margin: 5px;
-                padding: 5px;
-                iframe {
-                    width: 250px;
-                    height: 150px;
-                    border-radius: 15px; 
-                   }
-                        }
-            }
+            box-shadow: 0 0 12px 15px #B2A4FF ;
+            width: 220px;
+            height: 320; }}
+      
 
+  }
  
-    
+  .titulo{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                -23px 0 20px -23px rgba(0, 0, 0, .8),
+                23px 0 20px -23px rgba(0, 0, 0, .8),
+                inset 0 0 40px rgba(0, 0, 0, .1);
+}

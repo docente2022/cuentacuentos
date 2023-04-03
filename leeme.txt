@@ -2,4 +2,6 @@ Esta es la primera entrega de mi proyecto.
 *Contiene el  sketch y wireframe.
 *Una Pagina Principal.
 *Un menu de navegacion linkeado hacia otras paginas webs, excepto la opcion de contacto que te envia a otra Página dentro del proyecto.
-*Una hoja de estilo css
+*Una hoja de estilo css y scss
+*@mixin utilizado en _formulario.scss
+*

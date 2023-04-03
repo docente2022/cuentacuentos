@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +15,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <script src="https://kit.fontawesome.com/f7d032e2e9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/estilos/css/style.css">
-    <title>Cuenta Cuentos-Todos los Cuentos</title>
+    <title>Cuenta Cuentos-Contacto</title>
     <link rel="shortcut icon" href="/paginas/img/icon/favicon.ico">
 </head>
 
@@ -76,7 +74,7 @@
 
                 <form class="d-flex justify-content-sm-between" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-                <button class="btn pt-2 pb-2" type="submit">Buscar</button>
+                <button class="btn pb-2 pt-2" type="submit">Buscar</button>
                 </form>
     <!-- redes sociales -->
             <ul class="navbar-nav  flex-row flex-wrap text-light align-content-end p-1 m-1">
@@ -117,44 +115,93 @@
         
         <!-- contenido -->
         <main class=" main container-sm">
-
-            <div class="mt-4 titulo">
-                <h1 class=" display-1"> <strong> Cuenta cuentos </strong> </h1>
+          <div class="mt-4 titulo">
+            <h1 class=" display-1"> <strong> Cuenta cuentos </strong> </h1>
+        </div>
+        
+        <div class="contenedor-formularios">
+            <!-- Links de los formularios -->
+            <ul class="contenedor-tabs">
+                <li class="tab tab-segunda active"><a href="#iniciar-sesion">Iniciar Sesión</a></li>
+                <li class="tab tab-primera"><a href="#registrarse">Registrarse</a></li>
+            </ul>
+    
+            <!-- Contenido de los Formularios -->
+            <div class="contenido-tab">
+                <!-- Iniciar Sesion -->
+                <div id="iniciar-sesion">
+                    <h1>Iniciar Sesión</h1>
+                    <form action="#" method="post">
+                        <div class="contenedor-input">
+                            <label>
+                                Usuario <span class="req">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+    
+                        <div class="contenedor-input">
+                            <label>
+                                Contraseña <span class="req">*</span>
+                            </label>
+                            <input type="password" required>
+                        </div>
+                        <p class="forgot"><a href="#">Se te olvidó la contraseña?</a></p>
+                        <input type="submit" class="button button-block" value="Iniciar Sesión">
+                    </form>
+                </div>
+    
+                <!-- Registrarse -->
+                <div id="registrarse">
+                    <h1>Registrarse</h1>
+                    <form action="#" method="post">
+                        <div class="fila-arriba">
+                            <div class="contenedor-input">
+                                <label>
+                                    Nombre <span class="req">*</span>
+                                </label>
+                                <input type="text" required >
+                            </div>
+    
+                            <div class="contenedor-input">
+                                <label>
+                                    Apellido <span class="req">*</span>
+                                </label>
+                                <input type="text" required>
+                            </div>
+                        </div>
+                        <div class="contenedor-input">
+                            <label>
+                                Usuario <span class="req">*</span>
+                            </label>
+                            <input type="text" required>
+                        </div>
+                        <div class="contenedor-input">
+                                <label>
+                                    Email <span class="req">*</span>
+                                </label>
+                            <input type="email" required>
+                        </div>
+                        <div class="contenedor-input">
+                            <label>
+                                Contraseña <span class="req">*</span>
+                            </label>
+                            <input type="password" required>
+                        </div>
+    
+                        <div class="contenedor-input">
+                            <label>
+                                Repetir Contraseña <span class="req">*</span>
+                            </label>
+                            <input type="password" required>
+                        </div>
+    
+                        <input type="submit" class="button button-block" value="Registrarse">
+                    </form>
+                </div>
             </div>
-
-            <div class="container pb-4">
-              <strong> <h2 class=" fs-1 fst-italic text-center"> ¡Atrapemos al monstruo!</h2> </strong>
-
-              <img src="/paginas/img/monstruo.webp"class="img-fluid" style="width: 80rem;" alt=" caperucita y el lobo">
-
-              <p class="" >Una mañana un ruido extraño despertó a doña Pata. Asustada se levanta y pide la ayuda de su amigo el Cerdo. El cerdo piensa que necesitan la ayuda de alguien fuerte y busca al oso. El cerdo le explica el ruido espeluznante a su amigo oso y este sugiere buscar a alguien gritón. Juntos buscan al lobo y le dicen la noticia terrible, pero el lobo sugiere la ayuda de alguien muy listo.  Se van los tres en busca del búho.  El lobo le dice sobre el ruido espantoso y horripilante al búho el cual le responde que Doña Pata corre mucho peligro. </p> 
-              <p> Entre los cuatro amigos planean atrapar al monstruo.  Al llegar a la casa de Doña Pata y mirar bajo la cama de ella los que había era un ratoncito que roncaba dulcemente.  Los animales se miraron y se marcharon sin hacer ruido.</p>
-                <div>
-                  <img src="/paginas/img/atrapemos-al-monstruo.jpg" alt="¡atrapemos al monstruo">
-                  <cite class="text-end">Norbert Landa ; [ilustraciones] Tim Warnes ; [traducción, Remedios Diéguez Diéguez]. -- Barcelona : Elfos, 2011 </cite>
-                            </div>
-                            <div class="d-flex justify-content-evenly">
-                              <a href="/paginas/cuentos.html"><i class="fa-solid fa-reply fa-beat-fade fa-2xl mt-4"></i></a>
-                              <a href="/index.html"><i class="fa-sharp fa-solid fa-house fa-bounce fa-2xl mt-4"></i> </a>
-                            </div>
-                            <div >
-                              <div>
-                                <p class="display-3 text-center pb-3">
-                                  ¡Comparte en las redes sociales! 
-                                </p>
-                              </div>
-                              <div class="d-flex justify-content-evenly pt-4">
-                                <i class="fa-brands fa-facebook fa-shake fa-2xl" ></i>
-                                <i class="fa-brands fa-twitter fa-shake fa-2xl" ></i>
-                                <i class="fa-brands fa-instagram fa-shake fa-2xl"></i>
-                                <i class="fa-solid fa-envelope fa-shake fa-2xl"></i>
-                              </div>
-                             
-                            </div>
-                        
-                    </div>
-            
-        </main>
+        </div>
+    
+          </main>
 
            <!--pie de pagina  -->
         <footer class=" footer">  
@@ -209,10 +256,22 @@
     </html>
 
 
-  
-
-</div>
-          
 
 
-           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

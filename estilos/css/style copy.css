@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+ background-color:#E5D1FA; 
+}
+p {
+padding: 40px;
+padding-top: 10px;
+padding-bottom: 1px;
+margin: 1px;
+}
+
+header{
+  background-color:#E3DFFD ;
+}
+
+.logo {
+  height: 100px;
+  width: 150px;
+  padding: 5px; }
+  
+  nav li a:hover {
+    background-color:#B2A4FF;
+    border-radius: 20px; }
+    
+  
+  .btn:hover{ 
+    background-color: #B2A4FF;
+    border-radius: 5px;
+    
+  }
+
+main{
+  width:75%;
+  height: auto;
+  background-color:  #ECF2FF;
+}
+
+i{
+  font-size: 18px;
+  color: #bd17d3;
+}
+.titulo{
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+                -23px 0 20px -23px rgba(0, 0, 0, .8),
+                23px 0 20px -23px rgba(0, 0, 0, .8),
+                inset 0 0 40px rgba(0, 0, 0, .1);
+}
+h1 {
+  color: #bd17d3;
+  font-size: xx-large;
+  text-align: center;
+  font-family: 'Hanalei', cursive;
+  font-weight: bold;
+
+ }
+
+ h2{
+  color: #bd17d3;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+ }
+.portada{
+  border-bottom: #999;
+  border-width: 10px;
+}
+
+.footer {
+
+  background-color: #FFF4D2;
+  }
+  footer ul a{
+    text-decoration: none;
+    color: #000;
+  }
+footer ul a:hover{
+  background-color: #B2A4FF;
+  border-radius: 10px;
+
+}
+
+div img {
+  width: 200px;
+  height: 300px;
+  padding: 0.7rem;
+  border: 10px;
+  color: #000;
+  border-radius: 24px; }
+
+.portada img:hover {
+   
+   box-shadow: 0 0 12px 15px #B2A4FF ;
+  width: 220px;
+  height: 320; }
+ 
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #cccccc;
+  border-radius: 1em; }
+
+form li + li {
+  margin-top: 1em;
+  text-decoration: none;
+list-style: none;}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right; }
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+  border: 3px solid #999; }
+
+input:focus,
+textarea:focus {
+  border-color: #000; }
+
+textarea {
+  vertical-align: top;
+  height: 5em; }
+
+button {
+  margin-left: .5em; }
+
+
+
+
+
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew {
+  background: #fff; /* color de fondo */
+  color: #e71ec9; /* color de fuente */
+  border: 2px solid #b20bef; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.ov-btn-grow-skew:hover {
+  color: #fff;/* color de fuente hover */
+}
+.ov-btn-grow-skew::after {
+  content: "";
+  background: #e50ce2; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+.ov-btn-grow-skew:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+
+
+
