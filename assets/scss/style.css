@@ -1,0 +1,202 @@
+@charset "UTF-8";
+header {
+  background-color: #E3DFFD;
+}
+header .logo {
+  height: 100px;
+  width: 150px;
+  padding: 5px;
+}
+header nav li a:hover {
+  background-color: #B2A4FF;
+  border-radius: 20px;
+}
+header i {
+  font-size: 18px;
+  color: #bd17d3;
+}
+header .btn:hover {
+  background-color: #B2A4FF;
+  border-radius: 10px;
+}
+
+main {
+  width: 75%;
+  height: auto;
+  background-color: #ECF2FF;
+}
+main h1 {
+  color: #bd17d3;
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Hanalei", cursive;
+  font-weight: bold;
+}
+main h2 {
+  color: #bd17d3;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-decoration: underline;
+}
+main .portada img {
+  width: 200px;
+  height: 300px;
+  padding: 0.7rem;
+  border: 10px;
+  color: #000;
+  border-radius: 24px;
+}
+main .portada img:hover {
+  box-shadow: 0 0 12px 15px #B2A4FF;
+  width: 220px;
+  height: 320;
+}
+
+.titulo {
+  animation: grow-and-shrink 2000ms;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes grow-and-shrink {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.4);
+  }
+}
+i {
+  color: #bd17d3;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: #FFF4D2;
+}
+.footer ul a {
+  text-decoration: none;
+  color: #000;
+}
+.footer ul a:hover {
+  background-color: #B2A4FF;
+  border-radius: 10px;
+}
+
+.form-contact {
+  background: #FFF;
+  width: 350px;
+  display: inline-block;
+  box-shadow: 7px 13px 37px rgba(0, 0, 0, 0.8);
+}
+
+.cabecera {
+  width: 100%;
+  background: #ff16d8;
+  overflow: hidden;
+  color: white;
+}
+.cabecera i {
+  color: white;
+}
+.cabecera span {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.contact {
+  padding: 0.8rem;
+  overflow: hidden;
+  color: gray;
+}
+
+.contact label {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contact input {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contact textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contact input:not([type=submit]), .contact textarea {
+  border: none;
+  border-bottom: 2px solid #ff165d;
+  margin-bottom: 10px;
+  font-size: 20px;
+  outline: none;
+  color: gray;
+}
+
+.contact textarea {
+  min-height: 100px;
+}
+
+input[type=submit] {
+  padding: 10px;
+  background: #eb0baf;
+  border: none;
+  color: white;
+  font-size: 20px;
+  /* pointer-events: none; */
+  cursor: pointer;
+}
+
+/*** ESTILOS BOTÓN GROW SKEW ***/
+.ov-btn-grow-skew, .btn {
+  background: #fff; /* color de fondo */
+  color: #e71ec9; /* color de fuente */
+  border: 2px solid #b20bef; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.ov-btn-grow-skew:hover, .btn:hover {
+  color: #fff; /* color de fuente hover */
+}
+.ov-btn-grow-skew::after, .btn::after {
+  content: "";
+  background: #e50ce2; /* color de fondo hover */
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+.ov-btn-grow-skew:hover::after, .btn:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(-45deg) scale(1, 1);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #E5D1FA;
+}/*# sourceMappingURL=style.css.map */
